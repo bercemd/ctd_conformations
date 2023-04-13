@@ -18,6 +18,7 @@ Python [options] filename.py
 ```
 *** Examples:
 ```
+python REMD.py --ff_path=topologydir --psf_path=psffile --pdb_path=pdbfile --sysinfo=sysinfo.dat --out_dir=outputdir --out_file=outputfile --nstep=500 --niteration=10 --nreplicate=8 --device=GPUdevice
 ```
 *** Citation
 ```
