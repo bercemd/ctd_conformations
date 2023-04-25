@@ -1,4 +1,4 @@
-#This python script calculates the contact map of a given PDB file between residues of a protein.
+#This python script calculates the distance map of a given PDB file between residues of a protein.
 #Modified by Amith, W. D. and Dutagaci, B. 2023, University of California Merced, Merced, CA 95343 USA.
 #Based on the examples in the user guide of MDAnalysis package
 #Reference:Michaud-Agrawal, N.; Denning, E. J.; Woolf, T. B.; Beckstein, O. MDAnalysis: A toolkit for the analysis of molecular dynamics simulations.
