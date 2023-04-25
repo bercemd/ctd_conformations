@@ -22,4 +22,5 @@ python REMD.py --ff_path=topologydir --psf_path=psffile --pdb_path=pdbfile --sys
 ```
 *** Citation
 ```
+Amith W. D., Dutagaci, B., Complex Conformational Space of RNA Polymerase II C-Terminal Domain upon Phosphorylation, bioRxiv, doi: https://doi.org/10.1101/2023.04.20.537737, 2023.
 ```
