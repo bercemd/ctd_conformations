@@ -1,0 +1,26 @@
+open unit 10 read form name "include the path for top_all36_prot.rtf"
+read rtf card unit 10
+close unit 10
+
+open unit 10 read form name "include the path for par_all36_prot.prm"
+read para card unit 10
+close unit 10
+
+read sequence card
+*  FIRST SEQUENCE FOR SECOND IC TEST
+*
+    7
+tyr ser pro thr ser pro ser 
+
+GENERATE PROA first nter last cter setup warn
+
+IC    PARA ALL  ! fill IC angles and bond values from parameters
+PRINT IC
+IC  SEED 1 N 1 CA 1 C
+IC  BILD
+PRINT     COORD
+
+open write unit 2 card name ctd.pdb
+write coor pdb unit 2
+close unit 2
+stop
