@@ -1,0 +1,3 @@
+The CHARMM input script (build.inp) and Bash script (run_buildmodel.sh) provided to generate the initial structure of 14- and 44-residue CTD models.
+
+Requirements are the CHARMM package, MMTSB tool and MODELLER program.
